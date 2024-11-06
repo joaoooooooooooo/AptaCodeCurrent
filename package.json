@@ -1,0 +1,36 @@
+{
+  "name": "point-cloud",
+  "version": "1.0.0",
+  "description": "Shows how to form self-contained components with their own state and user interaction.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "9.74.5",
+    "@react-three/fiber": "8.13.0",
+    "@types/three": "0.152.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.153.0",
+    "@react-three/postprocessing": "2.16.2",
+    "leva": "0.9.35",
+    "glsl-curl-noise2": "0.0.4",
+    "glslify": "7.1.1",
+    "react-postprocessing": "1.4.0",
+    "react-three-fiber": "6.0.13"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
